@@ -1,0 +1,26 @@
+{
+  "name": "playwright-ts-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-style Playwright + TypeScript UI test framework",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:headed": "playwright test --headed --project=chromium",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "1.63.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.0.0",
+    "eslint-plugin-playwright": "^2.12.0",
+    "typescript": "~5.9.0",
+    "typescript-eslint": "^8.71.0"
+  }
+}
