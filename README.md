@@ -1,6 +1,6 @@
 # Playwright + TypeScript UI Test Framework
 
-[![Playwright Tests](https://github.com/sci-sameena/playwright-ts-framework/actions/workflows/playwright.yml/badge.svg)](https://github.com/YOUR_USERNAME/playwright-ts-framework/actions/workflows/playwright.yml)
+[![Playwright Tests](https://github.com/sci-sameena/playwright-ts-framework/actions/workflows/playwright.yml/badge.svg)](https://github.com/sci-sameena/playwright-ts-framework/actions/workflows/playwright.yml)
 
 A production-style end-to-end test framework for an e-commerce app ([saucedemo.com](https://www.saucedemo.com)), built to show how I'd structure UI automation on a real team: fast, parallel, cross-browser, and readable.
 
